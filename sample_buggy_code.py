@@ -48,8 +48,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Fill remaining lines with dummy functions to reach ~1000 lines
-def dummy_func_0(): pass
 
-
-# (Repeat these dummy functions as needed until you reach ~1000 lines)
