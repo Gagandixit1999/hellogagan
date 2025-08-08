@@ -10,13 +10,13 @@ def buggy_function_1():
 
 # Repeating similar functions to reach 1000 lines
 
-for i in range(2, 990):
-    def func():
-        unused_variable = 123  # unused
-        if i % 10 == 0:
-            print(f"Buggy line at index {i}")
-        else:
-            pass  # intentionally empty block
+# for i in range(2, 990):
+#     def func():
+#         unused_variable = 123  # unused
+#         if i % 10 == 0:
+#             print(f"Buggy line at index {i}")
+#         else:
+#             pass  # intentionally empty block
 
 # Intentional bug: division by zero
 try:
